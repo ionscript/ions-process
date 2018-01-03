@@ -1,0 +1,27 @@
+{
+  "name": "ionscript/ions-process",
+  "description": "a component of system processes",
+  "license": "GPL-3.0+",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Serge Shportko",
+      "email": "ionscript.inc@gmail.com"
+    }
+  ],
+  "keywords": [
+    "ions",
+    "process"
+  ],
+  "homepage": "https://github.com/ionscript/ions-process",
+  "autoload": {
+    "psr-4": {
+      "Ions\\Process\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^5.5 || ^7.0"
+  },
+  "autoload-dev": {},
+  "require-dev": {}
+}
